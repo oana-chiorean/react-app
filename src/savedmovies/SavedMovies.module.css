@@ -1,0 +1,23 @@
+.movieList {
+  list-style: none;
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.movieList li {
+  padding: 10px 14px;
+  flex: 1 1 auto;
+  display: inline-flex;
+  max-width: 22%;
+}
+
+div.detailsContainer {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.detailsContainer span {
+  display: block;
+}

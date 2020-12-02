@@ -1,0 +1,30 @@
+.ratingContainer {
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ratingContainer span {
+  color: #ddd;
+  display: inline-flex;
+}
+
+.ratingContainer span.active,
+.ratingContainer:hover span {
+  color: yellow;
+}
+
+.ratingContainer > span:hover {
+  color: yellow;
+  cursor: pointer;
+  transform: scale(1.3);
+}
+
+.ratingContainer:hover span {
+  transform: scale(1.3);
+}
+
+.ratingContainer > span:hover ~ span {
+  color: #ddd;
+  transform: scale(1);
+}
